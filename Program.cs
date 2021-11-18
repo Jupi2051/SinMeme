@@ -126,7 +126,59 @@ namespace HelpingAkata
 
         public static void UninstallSIN()
         {
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write($"[{DateTime.Now} | GOOD PROCESS ] : STARTING UNINSTALLING PROCESS .");
+            for (int i = 0; i <= 4; i++)
+            {
+                Console.Write(".");
+                Thread.Sleep(1000);
+            }
+            Console.WriteLine("");
+            Console.WriteLine($"[{DateTime.Now} | GOOD PROCESS ] : DELETING \"STOP\" MISSPELLINGS [15%]...");
+            Thread.Sleep(2000);
+            Console.WriteLine($"[{DateTime.Now} | GOOD PROCESS ] : EXITING SIN FROM EVERY GUILD [20%]...");
+            Console.WriteLine($"[{DateTime.Now} | GOOD PROCESS ] : WHAT THE FUCK IS HENTAI HAVEN GUILD?");
+            Thread.Sleep(2000);
+            Console.WriteLine($"[{DateTime.Now} | GOOD PROCESS ] : GOD DAMN IT WE'RE GETTING ATTACKED BY TINY SIN CELLS  [40%]...");
+            Thread.Sleep(1000);
+            Console.Write("AAAAAAA\nAAAAAAaaaaAAAAAAAHELP");
+            Thread.Sleep(2000);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine($"[{DateTime.Now} | WARNING HOLY SHIT ] : we COULD NOT Delete the rest of SIN due to weird ass mutations we will explode SIN sintead. [60%]");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"[{DateTime.Now} | WARNING HOLY SHIT ] : installing SIN Bomb [60%]");
+            Thread.Sleep(50);
+            Console.WriteLine($"[{DateTime.Now} | WARNING HOLY SHIT ] : installing SIN Bomb [62%]");
+            Thread.Sleep(50);
+            Console.WriteLine($"[{DateTime.Now} | WARNING HOLY SHIT ] : installing SIN Bomb [63%]");
+            Thread.Sleep(50);
+            Console.WriteLine($"[{DateTime.Now} | WARNING HOLY SHIT ] : installing SIN Bomb [64%]");
+            Thread.Sleep(50);
+            Console.WriteLine($"[{DateTime.Now} | WARNING HOLY SHIT ] : installing SIN Bomb [65%]");
+            Thread.Sleep(50);
+            Console.WriteLine($"[{DateTime.Now} | WARNING HOLY SHIT ] : installing SIN Bomb [66%]");
+            Thread.Sleep(50);
+            Console.WriteLine($"[{DateTime.Now} | WARNING HOLY SHIT ] : installing SIN Bomb [73%]");
 
+            Console.WriteLine($"[{DateTime.Now} | CONFIRMATION ] : SUCCESSFULLY BOMBED SIN. TERRORISM ACHIEVED [85%]...");
+
+            Console.Write($"[{DateTime.Now} | GOOD PROCESS ] : CLEANING UP SIN BOMB MESS [90%]...");
+            for (int i = 0; i <= 20; i++)
+            {
+                Console.Write(".");
+                Thread.Sleep(200);
+            }
+            Console.WriteLine();
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine($"[{DateTime.Now} | CONFIRMATION ] : SUCCESSFULLY UNINSTALLED SIN.");
+            Console.WriteLine($"[{DateTime.Now} | CONFIRMATION ] : CONGRATULATIONS YOU ARE NOW SAFE FOREVER!! <3");
+            Console.ResetColor();
+            Thread.Sleep(500000);
+            Console.ResetColor();
         }
     }
 }
