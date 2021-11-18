@@ -128,7 +128,7 @@ namespace HelpingAkata
         {
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write($"[{DateTime.Now} | GOOD PROCESS ] : STARTING UNINSTALLING PROCESS .");
+            Console.Write($"[{DateTime.Now} | GOOD PROCESS ] : STARTING UNINSTALLATION PROCESS .");
             for (int i = 0; i <= 4; i++)
             {
                 Console.Write(".");
