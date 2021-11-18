@@ -94,6 +94,7 @@ namespace HelpingAkata
             Console.WriteLine("STOO");
             Console.WriteLine("STIO");
             Console.WriteLine("STI");
+            Console.WriteLine("ST9P");
             Console.WriteLine(":face_with_raised_eyebrow:🤨");
             Console.ResetColor();
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -117,7 +118,10 @@ namespace HelpingAkata
 
         public static void InjectSIN()
         {
-
+            Console.ResetColor();
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine($"[{DateTime.Now} | INFO ] : Injecting that bitch into someone's computer is gonna cause A LOTTA damage trust me, just find another way to revenge.");
+            Console.ResetColor();
         }
 
         public static void UninstallSIN()
